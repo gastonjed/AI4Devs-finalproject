@@ -1,118 +1,118 @@
-## Índice
+## Index <!-- omit in toc -->
 
-0. [Ficha del proyecto](#0-ficha-del-proyecto)
-1. [Descripción general del producto](#1-descripción-general-del-producto)
-2. [Arquitectura del sistema](#2-arquitectura-del-sistema)
-3. [Modelo de datos](#3-modelo-de-datos)
-4. [Especificación de la API](#4-especificación-de-la-api)
-5. [Historias de usuario](#5-historias-de-usuario)
-6. [Tickets de trabajo](#6-tickets-de-trabajo)
-7. [Pull requests](#7-pull-requests)
-
----
-
-## 0. Ficha del proyecto
-
-### **0.1. Tu nombre completo:**
-
-### **0.2. Nombre del proyecto:**
-
-### **0.3. Descripción breve del proyecto:**
-
-### **0.4. URL del proyecto:**
-
-> Puede ser pública o privada, en cuyo caso deberás compartir los accesos de manera segura. Puedes enviarlos a [alvaro@lidr.co](mailto:alvaro@lidr.co) usando algún servicio como [onetimesecret](https://onetimesecret.com/).
-
-### 0.5. URL o archivo comprimido del repositorio
-
-> Puedes tenerlo alojado en público o en privado, en cuyo caso deberás compartir los accesos de manera segura. Puedes enviarlos a [alvaro@lidr.co](mailto:alvaro@lidr.co) usando algún servicio como [onetimesecret](https://onetimesecret.com/). También puedes compartir por correo un archivo zip con el contenido
+- [1. Project Overview](#1-project-overview)
+- [2. General Product Description](#2-general-product-description)
+- [3. System Architecture](#3-system-architecture)
+- [4. Data Model](#4-data-model)
+- [5. API Specification](#5-api-specification)
+- [6. User Stories](#6-user-stories)
+- [7. Work Tickets](#7-work-tickets)
+- [8. Pull Requests](#8-pull-requests)
 
 
 ---
 
-## 1. Descripción general del producto
+## 1. Project Overview
 
-> Describe en detalle los siguientes aspectos del producto:
+### 1.1. Your Full Name
 
-### **1.1. Objetivo:**
+### 1.2. Project Name
 
-> Propósito del producto. Qué valor aporta, qué soluciona, y para quién.
+### 1.3. Brief Project Description
 
-### **1.2. Características y funcionalidades principales:**
+### 1.4. Project URL
 
-> Enumera y describe las características y funcionalidades específicas que tiene el producto para satisfacer las necesidades identificadas.
+> It can be public or private, in which case you must share access securely. You can send them to [alvaro@lidr.co](mailto:alvaro@lidr.co) using a service like [onetimesecret](https://onetimesecret.com/).
 
-### **1.3. Diseño y experiencia de usuario:**
+### 1.5. Repository URL or Compressed File
 
-> Proporciona imágenes y/o videotutorial mostrando la experiencia del usuario desde que aterriza en la aplicación, pasando por todas las funcionalidades principales.
-
-### **1.4. Instrucciones de instalación:**
-> Documenta de manera precisa las instrucciones para instalar y poner en marcha el proyecto en local (librerías, backend, frontend, servidor, base de datos, migraciones y semillas de datos, etc.)
+> You can host it publicly or privately, in which case you must share access securely. You can send them to [alvaro@lidr.co](mailto:alvaro@lidr.co) using a service like [onetimesecret](https://onetimesecret.com/). You can also share a zip file with the content via email.
 
 ---
 
-## 2. Arquitectura del Sistema
+## 2. General Product Description
 
-### **2.1. Diagrama de arquitectura:**
-> Usa el formato que consideres más adecuado para representar los componentes principales de la aplicación y las tecnologías utilizadas. Explica si sigue algún patrón predefinido, justifica por qué se ha elegido esta arquitectura, y destaca los beneficios principales que aportan al proyecto y justifican su uso, así como sacrificios o déficits que implica.
+> Describe in detail the following aspects of the product:
 
+### 2.1. Objective
 
-### **2.2. Descripción de componentes principales:**
+> Product purpose. What value it provides, what it solves, and for whom.
 
-> Describe los componentes más importantes, incluyendo la tecnología utilizada
+### 2.2. Main Features and Functionalities
 
-### **2.3. Descripción de alto nivel del proyecto y estructura de ficheros**
+> List and describe the specific features and functionalities the product has to meet the identified needs.
 
-> Representa la estructura del proyecto y explica brevemente el propósito de las carpetas principales, así como si obedece a algún patrón o arquitectura específica.
+### 2.3. Design and User Experience
 
-### **2.4. Infraestructura y despliegue**
+> Provide images and/or video tutorial showing the user experience from landing on the application, through all main functionalities.
 
-> Detalla la infraestructura del proyecto, incluyendo un diagrama en el formato que creas conveniente, y explica el proceso de despliegue que se sigue
+### 2.4. Installation Instructions
 
-### **2.5. Seguridad**
-
-> Enumera y describe las prácticas de seguridad principales que se han implementado en el proyecto, añadiendo ejemplos si procede
-
-### **2.6. Tests**
-
-> Describe brevemente algunos de los tests realizados
+> Document precisely the instructions to install and run the project locally (libraries, backend, frontend, server, database, migrations and data seeds, etc.)
 
 ---
 
-## 3. Modelo de Datos
+## 3. System Architecture
 
-### **3.1. Diagrama del modelo de datos:**
+### 3.1. Architecture Diagram
 
-> Recomendamos usar mermaid para el modelo de datos, y utilizar todos los parámetros que permite la sintaxis para dar el máximo detalle, por ejemplo las claves primarias y foráneas.
+> Use the format you consider most appropriate to represent the main application components and technologies used. Explain if it follows any predefined pattern, justify why this architecture was chosen, and highlight the main benefits it brings to the project and justify its use, as well as trade-offs or deficits it implies.
 
+### 3.2. Main Components Description
 
-### **3.2. Descripción de entidades principales:**
+> Describe the most important components, including the technology used
 
-> Recuerda incluir el máximo detalle de cada entidad, como el nombre y tipo de cada atributo, descripción breve si procede, claves primarias y foráneas, relaciones y tipo de relación, restricciones (unique, not null…), etc.
+### 3.3. High-Level Project Description and File Structure
 
----
+> Represent the project structure and briefly explain the purpose of the main folders, as well as whether it follows any specific pattern or architecture.
 
-## 4. Especificación de la API
+### 3.4. Infrastructure and Deployment
 
-> Si tu backend se comunica a través de API, describe los endpoints principales (máximo 3) en formato OpenAPI. Opcionalmente puedes añadir un ejemplo de petición y de respuesta para mayor claridad
+> Detail the project infrastructure, including a diagram in the format you consider appropriate, and explain the deployment process followed
 
----
+### 3.5. Security
 
-## 5. Historias de Usuario
+> List and describe the main security practices implemented in the project, adding examples if appropriate
 
-> Documenta 3 de las historias de usuario principales utilizadas durante el desarrollo, teniendo en cuenta las buenas prácticas de producto al respecto.
+### 3.6. Tests
 
-**Historia de Usuario 1**
-
-**Historia de Usuario 2**
-
-**Historia de Usuario 3**
+> Briefly describe some of the tests performed
 
 ---
 
-## 6. Tickets de Trabajo
+## 4. Data Model
 
-> Documenta 3 de los tickets de trabajo principales del desarrollo, uno de backend, uno de frontend, y uno de bases de datos. Da todo el detalle requerido para desarrollar la tarea de inicio a fin teniendo en cuenta las buenas prácticas al respecto. 
+### 4.1. Data Model Diagram
+
+> We recommend using Mermaid for the data model, and utilizing all the parameters the syntax allows to give maximum detail, for example primary and foreign keys.
+
+### 4.2. Main Entities Description
+
+> Remember to include maximum detail for each entity, such as the name and type of each attribute, brief description if appropriate, primary and foreign keys, relationships and relationship type, constraints (unique, not null...), etc.
+
+---
+
+## 5. API Specification
+
+> If your backend communicates through API, describe the main endpoints (maximum 3) in OpenAPI format. Optionally you can add a request and response example for greater clarity
+
+---
+
+## 6. User Stories
+
+> Document 3 of the main user stories used during development, considering product best practices.
+
+**User Story 1**
+
+**User Story 2**
+
+**User Story 3**
+
+---
+
+## 7. Work Tickets
+
+> Document 3 of the main development work tickets, one for backend, one for frontend, and one for databases. Provide all the detail required to develop the task from start to finish considering best practices.
 
 **Ticket 1**
 
@@ -122,13 +122,12 @@
 
 ---
 
-## 7. Pull Requests
+## 8. Pull Requests
 
-> Documenta 3 de las Pull Requests realizadas durante la ejecución del proyecto
+> Document 3 of the Pull Requests made during project execution
 
 **Pull Request 1**
 
 **Pull Request 2**
 
 **Pull Request 3**
-
